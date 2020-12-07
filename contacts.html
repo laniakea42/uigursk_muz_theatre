@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Contacts</title>
+	<link rel="stylesheet" href="css/libs.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<div class="preload">
+		<div class="sk-double-bounce">
+			<div class="sk-child sk-double-bounce-1"></div>
+			<div class="sk-child sk-double-bounce-2"></div>
+		</div>
+	</div>
+	
+	<header class="header">
+		<div class="container container--widest flex center spb">
+			<div class="nav--btn">
+				<svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+					<path
+						  class="line top"
+						  d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+					<path
+						  class="line middle"
+						  d="m 70,50 h -40" />
+					<path
+						  class="line bottom"
+						  d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+				  </svg>
+			</div>
+			<div class="slogan">Государственный республиканский академический Уйгурский театр <br>музыкальной комедии им.К.Кужамьярова</div>
+			<a href="index.html" class="logo-link"><img src="./img/logo.png" alt=""></a>
+			<nav class="nav">
+				<ul class="flex center nav-ul">
+					<li class="dropdown">
+						<div class="nav_el trigger">Спектакли</div>
+						<ul class="dropdown-menu">
+							<li><a href="#">Афиша</a></li>
+							<li><a href="#">Репертуар</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<div class="trigger nav_el">О театре</div>
+						<ul class="dropdown-menu">
+							<li><a href="about.html">О театре</a></li>
+							<li><a href="about.html">О театре</a></li>
+							<li><a href="about.html">О театре</a></li>
+							<li><a href="about.html">О театре</a></li>
+						</ul>
+					</li>
+	
+					<li class="dropdown">
+						<div class="trigger nav_el">Коллектив</div>
+						<ul class="dropdown-menu">
+							<li><a href="#">Коллектив</a></li>
+							<li><a href="#">Коллектив</a></li>
+							<li><a href="#">Коллектив</a></li>
+							<li><a href="#">Коллектив</a></li>
+						</ul>
+					</li>
+	
+					<li>
+						<a href="#" class="nav_el">Галерея</a>
+					</li>
+					<li class="dropdown">
+						<div class="trigger nav_el">СМИ</div>
+						<ul class="dropdown-menu">
+							<li><a href="#">Статьи</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Публикации</a></li>
+						</ul>
+					</li>
+					<li class="cts"><a href="contacts.html" class="nav_el">Контакты</a></li>
+				</ul>
+			</nav>
+	
+		</div>
+	</header>
+	
+	<div class="header-side">
+		<div class="langs dropdown">
+			<div class="trigger">РУ</div>
+			<div class="dropdown-menu">
+				<a href="#">РУ</a>
+				<a href="#">КАЗ</a>
+				<a href="#">УЙГ</a>
+			</div>
+		</div>
+		<div class="soc-row side-soc">
+			<a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+			<a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		</div>
+	</div>
+	
+	
+	<div class="modal" id="modal-send">
+		<div class="modal__layer"></div>
+		<div class="modal__block">
+			<a href="#" class="close"></a>
+			<h4>Ваше сообщение успешно отправлено</h4>
+		</div>
+	</div>
+	
+	
+	<div class="modal" id="modal--call">
+		<div class="modal__layer"></div>
+		<div class="modal__block">
+			<a href="#" class="close"></a>
+			<h4>Заказать звонок</h4>
+			<form action="">
+				<input type="text" required placeholder="Ваше имя">
+				<input type="tel" class="tel" required placeholder="+7 (___) ___-__-__">
+				<input type="email" required placeholder="Электронная почта">
+				<button class="btn btn--filled open--modal" data-modal="#secc-ssend-req" type="submit">отправить</button>
+			</form>
+		</div>
+	</div>
+	
+	
+	
+	<div class="modal" id="secc-ssend-req">
+		<div class="modal__layer"></div>
+		<div class="modal__block">
+			<a href="#" class="close"></a>
+			<h4>Ваша заявка успешно отправлена</h4>
+		</div>
+	</div>
+	<div class="wrapper page cts-page">
+		<section id="sec30" class="rel rel30 cts-page">
+			<div class="container container--widest">
+	
+				<div class="widetitle widetitle--color">
+					
+					<div class="widetitle_content">
+						<div class="breadcrumbs">
+							<ul>
+								<li><a href="index.html">Главная</a></li>
+								<li><a href="#" class="current">Контакты</a></li>
+							</ul>
+						</div>
+	
+						<div class="h1_and_desc">
+							<h1>Контакты</h1>
+	
+							<div class="cts-grid">
+								<div class="cts-media flex">
+									<div class="circle"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+									<div class="content">Казахстан, г.Алматы, <nobr>ул. Наурызбай</nobr> батыра 83</div>
+								</div>
+	
+								<div class="cts-media flex">
+									<div class="circle"><i class="fa fa-phone" aria-hidden="true"></i></div>
+									<div class="content"><a href="tel:7777777">+7 (727) 272 88 83</a></div>
+								</div>
+	
+								<div class="cts-media flex">
+									<div class="circle"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+									<div class="content"><a href="mailto:info@uyghurtheatre.kz" class="maillink">info@uyghurtheatre.kz</a></div>
+								</div>
+	
+								<div class="soc_row cts_soc">
+									<a href="#" target="_blank" class="soc_link soc_inst"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+									<a href="#" target="_blank" class="soc_link soc_fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="#" target="_blank" class="soc_link soc_yt"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+								</div>
+							</div>
+	
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="map" id="#map">
+					<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A08547c491e51e6c6dce4ade4a0f01ce86ac26cb34e62253761bb647651ed03e4&amp;source=constructor" width="1140" height="491" frameborder="0"></iframe>
+				</div>
+			</div>
+		</section>
+	
+		<section class="contactus">
+			<div class="container">
+				<h2>Напишите нам</h2>
+				<form action="">
+					<div class="ctsus_grid">
+						<input type="text" required placeholder="Ваше имя">
+						<input type="tel" required placeholder="+7 ( ___ ) - ___ - __ - __" class="tel">
+						<input type="email" required placeholder="Электронная почта">
+						<textarea placeholder="Текст сообщения" required></textarea>
+						<div class="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lefv7oZAAAAABhYhyZ7WhGNd393GddP32_Al8_I&amp;co=aHR0cDovL3R0Zy45ei5rejo4MA..&amp;hl=en&amp;v=UFwvoDBMjc8LiYc1DKXiAomK&amp;size=normal&amp;cb=u0qff7m7xyz8" width="304" height="78" role="presentation" name="a-h1m8i5im78c" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
+					</div>
+					<button class="btn btn--filled open--modal" data-modal="#modal-send">Отправить</button>
+				</form>
+			</div>
+		</section>
+
+	</div>
+
+
+
+
+    <footer class="f">
+        <div class="f__upper">
+            <div class="container flex spb center f_topc">
+                <div class="f__langs flex center">
+                    <a href="#" class="active">Рус</a>
+                    <a href="#">Каз</a>
+                    <a href="#">Уйг</a>
+                </div>
+                <div>
+                    Касса театра:
+                    <a href="tel:+77272728883" class="phone-link">+7 (727) 272 88 83</a>
+                </div>
+                <button class="btn btn--filled open--modal" data-modal="#modal--call">Заказать звонок</button>
+            </div>
+            <div class="f_mainc container">
+                <div class="f_links-block">
+                    <a href="#" class="active">Спектакли</a>
+                    <a href="about.html">О театре</a>
+                    <a href="#">Коллектив</a>
+                </div>
+                <div class="f_links-block">
+                    <a href="#">Галерея</a>
+                    <a href="#">СМИ</a>
+                    <a href="contacts.html">Контакты</a>
+                </div>
+    
+                <div class="f_cts">
+                    <div class="f_title">Контакты</div>
+                    <div class="col--location">Казахстан, г.Алматы, ул. Наурызбай батыра 83</div>
+                    <div class="col--email"><a href="mailto:info@uyghurtheatre.kz" class="maillink">info@uyghurtheatre.kz</a></div>
+                </div>
+                <div class="f_soc">
+                    <div class="f_title">Мы в соц. сетях</div>
+                    <div class="soc_row">
+                        <a href="#" target="_blank" class="soc_link soc_inst"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank" class="soc_link soc_fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank" class="soc_link soc_yt"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="f__bottom">
+            <div class="container flex spb">
+                <div class="copy">Copyright &copy; 2020 РГКП «Государственный республиканский уйгурский театр музыкальной комедии им.К.Кужамьярова»</div>
+                <div class="art-c">
+                    <a href="https://www.artmedia.kz/" target="_blank">Создание сайта</a>
+                    <img src="./img/art.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/libs.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

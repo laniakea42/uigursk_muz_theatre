@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Уйгурский Музыкальный Комедийный Театр им. К. Кужамьярова</title>
+	<link rel="stylesheet" href="css/libs.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="preload">
+		<div class="sk-double-bounce">
+			<div class="sk-child sk-double-bounce-1"></div>
+			<div class="sk-child sk-double-bounce-2"></div>
+		</div>
+	</div>
+	
+	<header class="header">
+		<div class="container container--widest flex center spb">
+			<div class="nav--btn">
+				<svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+					<path
+						  class="line top"
+						  d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+					<path
+						  class="line middle"
+						  d="m 70,50 h -40" />
+					<path
+						  class="line bottom"
+						  d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+				  </svg>
+			</div>
+			<div class="slogan">Государственный республиканский академический Уйгурский театр <br>музыкальной комедии им.К.Кужамьярова</div>
+			<a href="index.html" class="logo-link"><img src="./img/logo.png" alt=""></a>
+			<nav class="nav">
+				<ul class="flex center nav-ul">
+					<li class="dropdown">
+						<div class="nav_el trigger">Спектакли</div>
+						<ul class="dropdown-menu">
+							<li><a href="#">Афиша</a></li>
+							<li><a href="#">Репертуар</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<div class="trigger nav_el">О театре</div>
+						<ul class="dropdown-menu">
+							<li><a href="about.html">О театре</a></li>
+							<li><a href="about.html">О театре</a></li>
+							<li><a href="about.html">О театре</a></li>
+							<li><a href="about.html">О театре</a></li>
+						</ul>
+					</li>
+	
+					<li class="dropdown">
+						<div class="trigger nav_el">Коллектив</div>
+						<ul class="dropdown-menu">
+							<li><a href="#">Коллектив</a></li>
+							<li><a href="#">Коллектив</a></li>
+							<li><a href="#">Коллектив</a></li>
+							<li><a href="#">Коллектив</a></li>
+						</ul>
+					</li>
+	
+					<li>
+						<a href="#" class="nav_el">Галерея</a>
+					</li>
+					<li class="dropdown">
+						<div class="trigger nav_el">СМИ</div>
+						<ul class="dropdown-menu">
+							<li><a href="#">Статьи</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Публикации</a></li>
+						</ul>
+					</li>
+					<li class="cts"><a href="contacts.html" class="nav_el">Контакты</a></li>
+				</ul>
+			</nav>
+	
+		</div>
+	</header>
+	
+	<div class="header-side">
+		<div class="langs dropdown">
+			<div class="trigger">РУ</div>
+			<div class="dropdown-menu">
+				<a href="#">РУ</a>
+				<a href="#">КАЗ</a>
+				<a href="#">УЙГ</a>
+			</div>
+		</div>
+		<div class="soc-row side-soc">
+			<a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+			<a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		</div>
+	</div>
+	
+	
+	<div class="modal" id="modal-send">
+		<div class="modal__layer"></div>
+		<div class="modal__block">
+			<a href="#" class="close"></a>
+			<h4>Ваше сообщение успешно отправлено</h4>
+		</div>
+	</div>
+	
+	
+	<div class="modal" id="modal--call">
+		<div class="modal__layer"></div>
+		<div class="modal__block">
+			<a href="#" class="close"></a>
+			<h4>Заказать звонок</h4>
+			<form action="">
+				<input type="text" required placeholder="Ваше имя">
+				<input type="tel" class="tel" required placeholder="+7 (___) ___-__-__">
+				<input type="email" required placeholder="Электронная почта">
+				<button class="btn btn--filled open--modal" data-modal="#secc-ssend-req" type="submit">отправить</button>
+			</form>
+		</div>
+	</div>
+	
+	
+	
+	<div class="modal" id="secc-ssend-req">
+		<div class="modal__layer"></div>
+		<div class="modal__block">
+			<a href="#" class="close"></a>
+			<h4>Ваша заявка успешно отправлена</h4>
+		</div>
+	</div>
+	<div class="wrapper index-page">
+
+		<section id="sec1" class="rel1 rel">
+			<div class="container container--widest">
+				<div class="slider mslider">
+					<div class="mslider__item">
+						<img src="./img/slid.jpg" alt="">
+						<div class="mslider__content">
+							<h1 class="wow fadeInUp" data-wow-delay=".2s">Уйгурский Музыкальный <br>Комедийный Театр им. <nobr>К. Кужамьярова</nobr></h1>
+							<a href="about.html" class="btn btn--w">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="mslider__item">
+						<img src="./img/slid.jpg" alt="">
+						<div class="mslider__content">
+							<h1 class="wow fadeInUp" data-wow-delay=".2s">Уйгурский Музыкальный <br>Комедийный Театр им. <nobr>К. Кужамьярова</nobr></h1>
+							<a href="about.html" class="btn btn--w">Подробнее</a>
+						</div>
+					</div>
+
+					<div class="mslider__item">
+						<img src="./img/slid.jpg" alt="">
+						<div class="mslider__content">
+							<h1 class="wow fadeInUp" data-wow-delay=".2s">Уйгурский Музыкальный <br>Комедийный Театр им. <nobr>К. Кужамьярова</nobr></h1>
+							<a href="about.html" class="btn btn--w">Подробнее</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section id="sec2" class="rel2 rel">
+			<div class="container">
+				<div class="grid23">
+					<div class="lcol">
+						Мы верим в силу искусства и много времени посвящаем тому, чтобы наши постановки были безупречными с художественной и смысловой точки зрения. 
+						<br><br>Наши увлекательные шоу поражают воображение зрителей. Если вы хотите хорошо провести время всей семьей, вы на правильном пути.
+					</div>
+					<div class="rcol"><img src="./img/opbg.jpg" alt=""></div>
+				</div>
+			</div>
+		</section>
+
+		<section id="sec3" class="rel3 rel">
+			<div class="container">
+				<h2><a href="#">Новости</a></h2>
+				<div class="grid3">
+					<a href="#" class="n_card wow fadeInUp" data-wow-delay="">
+						<div class="img-c">
+							<div class="dateblock">
+								<div class="num">13</div>
+								ноября <br>2020
+							</div>
+							<button class="btn btn--w">Подробнее</button>
+							<img src="./img/n1.jpg" alt="">
+						</div>
+
+						<div class="n_text-c">
+							<div class="n_title">Изменения в репертуаре ноября</div>
+						<div class="n_text">Уважаемые зрители! Обращаем ваше внимание на отмены и замены спектаклей в ноябре. Приносим извинения за доставленные неудобства.</div>
+						</div>
+					</a>
+
+					<a href="#" class="n_card wow fadeInUp" data-wow-delay=".2s">
+						<div class="img-c">
+							<div class="dateblock">
+								<div class="num">11</div>
+								ноября <br>2020
+							</div>
+							<button class="btn btn--w">Подробнее</button>
+							<img src="./img/n2.jpg" alt="">
+						</div>
+
+						<div class="n_text-c">
+							<div class="n_title">Усиление мер безопасности</div>
+						<div class="n_text">К правилам безопасного посещения театра, предусматривающим соблюдение зрителям социальной дистанции, использование средств индивидуальной защиты на протяжении всего времени нахождения в театре.</div>
+						</div>
+					</a>
+
+					<a href="#" class="n_card wow fadeInUp" data-wow-delay=".4s">
+						<div class="img-c">
+							<div class="dateblock">
+								<div class="num">9</div>
+								ноября <br>2020
+							</div>
+							<button class="btn btn--w">Подробнее</button>
+							<img src="./img/n3.jpg" alt="">
+						</div>
+
+						<div class="n_text-c">
+							<div class="n_title">Казахстанские звёзды театра выступили на грузинской сцене</div>
+						<div class="n_text">Государственный республиканский уйгурский театр музыкальной комедии им.К.Кужамьярова представил в Грузии свое творчество.</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="sec4" class="rel4 rel dark-bg">
+			<div class="container">
+				<h2><a href="#">Афиша</a></h2>
+				<div class="slider af_slider">
+					<a href="./img/af1.jpg" data-fancybox="afisha" class="af_slider__item"><img src="./img/af1.jpg" alt=""></a>
+					<a href="./img/af2.jpg" data-fancybox="afisha" class="af_slider__item"><img src="./img/af2.jpg" alt=""></a>
+					<a href="./img/af3.jpg" data-fancybox="afisha" class="af_slider__item"><img src="./img/af3.jpg" alt=""></a>
+					<a href="./img/af1.jpg" data-fancybox="afisha" class="af_slider__item"><img src="./img/af1.jpg" alt=""></a>
+					<a href="./img/af2.jpg" data-fancybox="afisha" class="af_slider__item"><img src="./img/af2.jpg" alt=""></a>
+					<a href="./img/af3.jpg" data-fancybox="afisha" class="af_slider__item"><img src="./img/af3.jpg" alt=""></a>
+				</div>
+			</div>
+		</section>
+
+		<section id="sec5" class="rel5 rel">
+			<div class="container">
+				<h2><a href="#">Ближайшие события</a></h2>
+				<a href="#" class="event_block flex event_block1 wow fadeIn" data-wow-delay=".24" data-wow-deration="2s">
+					<div class="event_date">
+						<div class="num">13</div>
+						ноября, 2020
+					</div>
+
+					<div class="flex center spb">
+						<div class="event_details">
+							<div class="event_title">Дети у власти (премьера)</div>
+							<div class="desc_row flex center">
+								<div>2 часа 30 минут с одним антрактом</div>
+								<div><span class="pale">Композитор:</span> Жорж Бизе</div>
+								<div><span class="pale">Язык:</span> Русский</div>
+							</div>
+						</div>
+
+						<button class="btn btn--filled">Подробнее</button>
+					</div>
+				</a>
+
+				<a href="#" class="event_block flex wow fadeIn" data-wow-delay=".24" data-wow-deration="2s">
+					<div class="event_date">
+						<div class="num">20</div>
+						ноября, 2020
+					</div>
+
+					<div class="flex center spb">
+						<div class="event_details">
+							<div class="event_title">Записки нервного капельдинера</div>
+							<div class="desc_row flex center">
+								<div>2 часа 30 минут с одним антрактом</div>
+								<div><span class="pale">Язык:</span> Русский</div>
+							</div>
+						</div>
+
+						<button class="btn btn--filled">Подробнее</button>
+					</div>
+				</a>
+
+				<a href="#" class="event_block flex wow fadeIn" data-wow-delay=".24" data-wow-deration="2s">
+					<div class="event_date">
+						<div class="num">27</div>
+						ноября, 2020
+					</div>
+
+					<div class="flex center spb">
+						<div class="event_details">
+							<div class="event_title">Игра в ящик</div>
+							<div class="desc_row flex center">
+								<div>2 часа 30 минут с одним антрактом</div>
+								<div><span class="pale">Композитор:</span> Жорж Бизе</div>
+								<div><span class="pale">Язык:</span> Русский</div>
+							</div>
+						</div>
+
+						<button class="btn btn--filled">Подробнее</button>
+					</div>
+				</a>
+
+				<a href="#" class="event_block flex wow fadeIn" data-wow-delay=".24" data-wow-deration="2s">
+					<div class="event_date">
+						<div class="num">4</div>
+						декабря, 2020
+					</div>
+
+					<div class="flex center spb">
+						<div class="event_details">
+							<div class="event_title">Оптимистическая трагедия. Прощальный бал</div>
+							<div class="desc_row flex center">
+								<div>2 часа 30 минут с одним антрактом</div>
+								<div><span class="pale">Композитор:</span> Луиджи Керубини</div>
+								<div><span class="pale">Язык:</span> Русский</div>
+							</div>
+						</div>
+
+						<button class="btn btn--filled">Подробнее</button>
+					</div>
+				</a>
+
+				<a href="#" class="event_block flex wow fadeIn" data-wow-delay=".24" data-wow-deration="2s">
+					<div class="event_date">
+						<div class="num">11</div>
+						декабря, 2020
+					</div>
+
+					<div class="flex center spb">
+						<div class="event_details">
+							<div class="event_title">Охота жить!</div>
+							<div class="desc_row flex center">
+								<div>2 часа 30 минут с одним антрактом</div>
+								<div><span class="pale">Язык:</span> Русский</div>
+							</div>
+						</div>
+
+						<button class="btn btn--filled">Подробнее</button>
+					</div>
+				</a>
+
+				<a href="#" class="btn btn--creme">Посмотреть все события</a>
+
+			</div>
+		</section>
+
+		<section id="sec6" class="rel6 rel">
+			<div class="container">
+				<h3 class="liltitle"><a href="#">Спектакли</a></h3>
+
+				<div class="spec_slider slider">
+					<a href="#" class="spec_item">
+						<div class="spec_title">По ту сторону занавеса</div>
+						<img src="./img/spec1.jpg" alt="">
+						<div class="content">
+							<div class="spec_desc">
+								Далекое будущее, 4015 год н.э. по меркам земного времени. В результате эксперимента по реинкарнации три сестры – Маша, Ирина, Ольга, умершие в 1900 году, обретают жизнь в новом мире. Хрестоматийный текст пьесы А.П. Чехова «Три сестры» загружается в только что возрожденный мозг. Звуки, шумы и созвучия, обрывки когда-то произнесенных фраз вызывают видения прошлого, и одновременно дают возможность начать новую жизнь. Есть ли возможность выйти за пределы программы, изменив судьбу?
+							</div>
+							<div class="bottom flex">
+								<div>3 часа 50 минут с одним антрактом</div>
+								<div><span class="pale">Композитор: </span>Андрия Жолдака</div>
+								<div><span class="pale">Язык: </span>Русский</div>
+							</div>
+						</div>
+					</a>
+
+					<a href="#" class="spec_item">
+						<div class="spec_title">Записки нервного капельдинера</div>
+						<img src="./img/pic1.png" alt="">
+						<div class="content">
+							<div class="spec_desc">
+								Далекое будущее, 4015 год н.э. по меркам земного времени. В результате эксперимента по реинкарнации три сестры – Маша, Ирина, Ольга, умершие в 1900 году, обретают жизнь в новом мире. Хрестоматийный текст пьесы А.П. Чехова «Три сестры» загружается в только что возрожденный мозг. Звуки, шумы и созвучия, обрывки когда-то произнесенных фраз вызывают видения прошлого, и одновременно дают возможность начать новую жизнь. Есть ли возможность выйти за пределы программы, изменив судьбу?
+							</div>
+							<div class="bottom flex">
+								<div>3 часа 50 минут с одним антрактом</div>
+								<div><span class="pale">Композитор: </span>Андрия Жолдака</div>
+								<div><span class="pale">Язык: </span>Русский</div>
+							</div>
+						</div>
+					</a>
+
+					<a href="#" class="spec_item">
+						<div class="spec_title">Оптимистическая трагедия</div>
+						<img src="./img/pic2.png" alt="">
+						<div class="content">
+							<div class="spec_desc">
+								Далекое будущее, 4015 год н.э. по меркам земного времени. В результате эксперимента по реинкарнации три сестры – Маша, Ирина, Ольга, умершие в 1900 году, обретают жизнь в новом мире. Хрестоматийный текст пьесы А.П. Чехова «Три сестры» загружается в только что возрожденный мозг. Звуки, шумы и созвучия, обрывки когда-то произнесенных фраз вызывают видения прошлого, и одновременно дают возможность начать новую жизнь. Есть ли возможность выйти за пределы программы, изменив судьбу?
+							</div>
+							<div class="bottom flex">
+								<div>3 часа 50 минут с одним антрактом</div>
+								<div><span class="pale">Композитор: </span>Андрия Жолдака</div>
+								<div><span class="pale">Язык: </span>Русский</div>
+							</div>
+						</div>
+					</a>
+
+					<a href="#" class="spec_item">
+						<div class="spec_title">По ту сторону занавеса</div>
+						<img src="./img/pic3.png" alt="">
+						<div class="content">
+							<div class="spec_desc">
+								Далекое будущее, 4015 год н.э. по меркам земного времени. В результате эксперимента по реинкарнации три сестры – Маша, Ирина, Ольга, умершие в 1900 году, обретают жизнь в новом мире. Хрестоматийный текст пьесы А.П. Чехова «Три сестры» загружается в только что возрожденный мозг. Звуки, шумы и созвучия, обрывки когда-то произнесенных фраз вызывают видения прошлого, и одновременно дают возможность начать новую жизнь. Есть ли возможность выйти за пределы программы, изменив судьбу?
+							</div>
+							<div class="bottom flex">
+								<div>3 часа 50 минут с одним антрактом</div>
+								<div><span class="pale">Композитор: </span>Андрия Жолдака</div>
+								<div><span class="pale">Язык: </span>Русский</div>
+							</div>
+						</div>
+					</a>
+
+					<a href="#" class="spec_item">
+						<div class="spec_title">Оптимистическая трагедия</div>
+						<img src="./img/pic4.png" alt="">
+						<div class="content">
+							<div class="spec_desc">
+								Далекое будущее, 4015 год н.э. по меркам земного времени. В результате эксперимента по реинкарнации три сестры – Маша, Ирина, Ольга, умершие в 1900 году, обретают жизнь в новом мире. Хрестоматийный текст пьесы А.П. Чехова «Три сестры» загружается в только что возрожденный мозг. Звуки, шумы и созвучия, обрывки когда-то произнесенных фраз вызывают видения прошлого, и одновременно дают возможность начать новую жизнь. Есть ли возможность выйти за пределы программы, изменив судьбу?
+							</div>
+							<div class="bottom flex">
+								<div>3 часа 50 минут с одним антрактом</div>
+								<div><span class="pale">Композитор: </span>Андрия Жолдака</div>
+								<div><span class="pale">Язык: </span>Русский</div>
+							</div>
+						</div>
+					</a>
+
+					<a href="#" class="spec_item">
+						<div class="spec_title">Записки нервного капельдинера</div>
+						<img src="./img/spec1.jpg" alt="">
+						<div class="content">
+							<div class="spec_desc">
+								Далекое будущее, 4015 год н.э. по меркам земного времени. В результате эксперимента по реинкарнации три сестры – Маша, Ирина, Ольга, умершие в 1900 году, обретают жизнь в новом мире. Хрестоматийный текст пьесы А.П. Чехова «Три сестры» загружается в только что возрожденный мозг. Звуки, шумы и созвучия, обрывки когда-то произнесенных фраз вызывают видения прошлого, и одновременно дают возможность начать новую жизнь. Есть ли возможность выйти за пределы программы, изменив судьбу?
+							</div>
+							<div class="bottom flex">
+								<div>3 часа 50 минут с одним антрактом</div>
+								<div><span class="pale">Композитор: </span>Андрия Жолдака</div>
+								<div><span class="pale">Язык: </span>Русский</div>
+							</div>
+						</div>
+					</a>
+
+					<a href="#" class="spec_item">
+						<div class="spec_title">Оптимистическая трагедия</div>
+						<img src="./img/pic1.png" alt="">
+						<div class="content">
+							<div class="spec_desc">
+								Далекое будущее, 4015 год н.э. по меркам земного времени. В результате эксперимента по реинкарнации три сестры – Маша, Ирина, Ольга, умершие в 1900 году, обретают жизнь в новом мире. Хрестоматийный текст пьесы А.П. Чехова «Три сестры» загружается в только что возрожденный мозг. Звуки, шумы и созвучия, обрывки когда-то произнесенных фраз вызывают видения прошлого, и одновременно дают возможность начать новую жизнь. Есть ли возможность выйти за пределы программы, изменив судьбу?
+							</div>
+							<div class="bottom flex">
+								<div>3 часа 50 минут с одним антрактом</div>
+								<div><span class="pale">Композитор: </span>Андрия Жолдака</div>
+								<div><span class="pale">Язык: </span>Русский</div>
+							</div>
+						</div>
+					</a>
+
+					<a href="#" class="spec_item">
+						<div class="spec_title">По ту сторону занавеса</div>
+						<img src="./img/pic2.png" alt="">
+						<div class="content">
+							<div class="spec_desc">
+								Далекое будущее, 4015 год н.э. по меркам земного времени. В результате эксперимента по реинкарнации три сестры – Маша, Ирина, Ольга, умершие в 1900 году, обретают жизнь в новом мире. Хрестоматийный текст пьесы А.П. Чехова «Три сестры» загружается в только что возрожденный мозг. Звуки, шумы и созвучия, обрывки когда-то произнесенных фраз вызывают видения прошлого, и одновременно дают возможность начать новую жизнь. Есть ли возможность выйти за пределы программы, изменив судьбу?
+							</div>
+							<div class="bottom flex">
+								<div>3 часа 50 минут с одним антрактом</div>
+								<div><span class="pale">Композитор: </span>Андрия Жолдака</div>
+								<div><span class="pale">Язык: </span>Русский</div>
+							</div>
+						</div>
+					</a>
+
+					<a href="#" class="spec_item">
+						<div class="spec_title">Оптимистическая трагедия</div>
+						<img src="./img/pic3.png" alt="">
+						<div class="content">
+							<div class="spec_desc">
+								Далекое будущее, 4015 год н.э. по меркам земного времени. В результате эксперимента по реинкарнации три сестры – Маша, Ирина, Ольга, умершие в 1900 году, обретают жизнь в новом мире. Хрестоматийный текст пьесы А.П. Чехова «Три сестры» загружается в только что возрожденный мозг. Звуки, шумы и созвучия, обрывки когда-то произнесенных фраз вызывают видения прошлого, и одновременно дают возможность начать новую жизнь. Есть ли возможность выйти за пределы программы, изменив судьбу?
+							</div>
+							<div class="bottom flex">
+								<div>3 часа 50 минут с одним антрактом</div>
+								<div><span class="pale">Композитор: </span>Андрия Жолдака</div>
+								<div><span class="pale">Язык: </span>Русский</div>
+							</div>
+						</div>
+					</a>
+
+				</div>
+			</div>
+		</section>
+
+
+	</div>
+<footer class="f">
+    <div class="f__upper">
+        <div class="container flex spb center f_topc">
+            <div class="f__langs flex center">
+                <a href="#" class="active">Рус</a>
+                <a href="#">Каз</a>
+                <a href="#">Уйг</a>
+            </div>
+            <div>
+                Касса театра:
+                <a href="tel:+77272728883" class="phone-link">+7 (727) 272 88 83</a>
+            </div>
+            <button class="btn btn--filled open--modal" data-modal="#modal--call">Заказать звонок</button>
+        </div>
+        <div class="f_mainc container">
+            <div class="f_links-block">
+                <a href="#" class="active">Спектакли</a>
+                <a href="about.html">О театре</a>
+                <a href="#">Коллектив</a>
+            </div>
+            <div class="f_links-block">
+                <a href="#">Галерея</a>
+                <a href="#">СМИ</a>
+                <a href="contacts.html">Контакты</a>
+            </div>
+
+            <div class="f_cts">
+                <div class="f_title">Контакты</div>
+                <div class="col--location">Казахстан, г.Алматы, ул. Наурызбай батыра 83</div>
+                <div class="col--email"><a href="mailto:info@uyghurtheatre.kz" class="maillink">info@uyghurtheatre.kz</a></div>
+            </div>
+            <div class="f_soc">
+                <div class="f_title">Мы в соц. сетях</div>
+                <div class="soc_row">
+                    <a href="#" target="_blank" class="soc_link soc_inst"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank" class="soc_link soc_fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank" class="soc_link soc_yt"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="f__bottom">
+        <div class="container flex spb">
+            <div class="copy">Copyright &copy; 2020 РГКП «Государственный республиканский уйгурский театр музыкальной комедии им.К.Кужамьярова»</div>
+            <div class="art-c">
+                <a href="https://www.artmedia.kz/" target="_blank">Создание сайта</a>
+                <img src="./img/art.png" alt="">
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/libs.js"></script>
+<script>
+	wow = new WOW({
+		boxClass:     'wow',      
+		animateClass: 'animated', 
+		offset:       0,          
+		mobile:       false,       
+		live:         true        
+})
+wow.init();		
+</script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
